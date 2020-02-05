@@ -6,7 +6,7 @@ namespace WebForms
 {
     public partial class Default : System.Web.UI.Page
     {
-        string CONNECTION_STRING = "data source=edo-pc\\sqlexpress; database=Northwind; integrated security=SSPI";
+        string CONNECTION_STRING = "data source=e<server>; database=Northwind; integrated security=SSPI";
 
         protected void Page_Load(object sender, EventArgs e)
         {
