@@ -18,7 +18,7 @@ namespace WebForms
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            //erase the current table before search
+            //delete data from the current table before new search
             DataGrid1.DataSource = null;
             DataGrid1.DataBind();
 
@@ -88,7 +88,7 @@ namespace WebForms
                 DataGrid1.DataSource = ds;
                 DataGrid1.DataBind();
 
-                
+                // return the focus to the input text for fast new search
                 CompanyName.Focus();
             }
         }
